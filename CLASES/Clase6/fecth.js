@@ -14,8 +14,7 @@ let getNameFetch = (idPost) => {
             console.log(user);
             /* 
                 document.write (`El posteo ${idPost} lo escribio ${user.name}`) */
-
-            document.write(`${user.name} vive en ${user.address.street}`);
+                document.write(`${user.name} vive en ${user.address.street}`);
           });
       });
   } catch (error) {
@@ -29,3 +28,4 @@ getNameFetch(32);
 https://jsonplaceholder.typicode.com/posts/
 
 https://jsonplaceholder.typicode.com/users */
+
