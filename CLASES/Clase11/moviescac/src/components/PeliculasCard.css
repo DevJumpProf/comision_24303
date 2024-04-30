@@ -1,0 +1,20 @@
+.peliculasCard {
+    list-style: none;
+text-transform: uppercase;
+text-align: center;
+
+}
+
+.peliculasImage{
+    border-radius: 10px;
+    background-color: azure;
+    width: 230px;
+    height: 345px;
+}
+
+@media(max-width:560px){
+    .peliculasImage{
+width: 90%;
+height: auto;
+    }
+}
