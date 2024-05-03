@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <BrowserRouter>
       <header>
-        <Link to="/aca">
+        <Link to="/">
           <h1 className="title">PELICULAS</h1>
         </Link>
       </header>

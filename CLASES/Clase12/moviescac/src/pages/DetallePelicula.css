@@ -1,0 +1,17 @@
+body {
+    color: #fff;
+}
+
+.contenedorDetalle{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.peliculaDetalle{
+    font-size: 1.5rem;
+
+}
+
+.item {
+    margin-top: 0;
+}
